@@ -1,0 +1,21 @@
+<div>
+    <h1>Two Way Data Binding</h1>
+        <form>
+    <input type="text" [(ngModel)]="name" name="name" placeholder="Digite seu nome">
+    <input type="submit">
+        </form>
+        <div *ngIf="name !== ''">
+            seu nome de usuario é: {{name}}
+        </div>
+                <h1>Tela de Login</h1>
+        <form>
+            <input type="text" [(ngModel)]="user" name="user" placeholder="insira seu user">
+            <input type="password" [(ngModel)]="senha" name="senha" placeholder="insira sua senha" >
+        </form>
+        <h3 *ngIf="user !== '' && senha !== '' else semAcesso">Bem-Vindo {{user}} !!</h3>
+        <ng-template #semAcesso>
+            <h2>Usuario e Senha invalidos</h2>
+        </ng-template>
+       
+
+</div>

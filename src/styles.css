@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+.aula{
+border-bottom: 3px solid rgb(194, 4, 252);
+padding-bottom: 2em;
+margin-bottom: 1em;
+margin: 0;
+}
+body{
+    margin: 0;
+}

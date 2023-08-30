@@ -1,0 +1,10 @@
+<div >
+    <h2 *ngIf="cond">Messagem</h2>
+    <h2 *ngIf="nome === 'Artur'; else semAcesso "> Bem-Vindo: {{ user }} </h2>
+    <ng-template #semAcesso>
+        <div>
+            <h2>Sem acesso p vc -_-</h2>
+        </div>
+    </ng-template>
+
+</div>

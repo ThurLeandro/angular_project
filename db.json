@@ -1,0 +1,10 @@
+{
+  "carros": [
+    {"id": 1, "modelo": "Skyline", "marca":"Nissan", "ano":2002},
+    {"id": 2, "modelo": "350z", "marca":"Nissan", "ano":2023},
+    {"id": 3, "modelo": "Lancer", "marca":"Mitsubishi", "ano":2013},
+    {"id": 4, "modelo": "Spider", "marca":"Porsche", "ano":2022},
+    {"id": 5, "modelo": "Aventador", "marca":"Bugatti", "ano":2023}
+
+  ]
+}

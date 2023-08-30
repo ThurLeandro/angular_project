@@ -1,0 +1,11 @@
+<div>
+        <h1>Meus carros:</h1>
+        <ul>
+            <li *ngFor="let carro of carros">
+                Modelo: <a routerLink="/list/{{carro.id}}"> {{carro.modelo}}</a> Marca:{{carro.marca}} Ano:{{carro.ano}}
+              <button (click)="infos(carro)">Infos</button>
+              <button (click)="removeCar(carro)">Remover</button>
+            </li>
+        </ul>
+     <h3>{{infoCar}}</h3>
+</div>
